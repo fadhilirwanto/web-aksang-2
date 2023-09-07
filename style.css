@@ -1,0 +1,191 @@
+.body{
+    background: #DDC192;
+    width:100%;
+    height: 300vh
+}
+
+.nav-item,
+.nav-item-dropdown{
+    margin-left:2em;
+    font-size:1rem;
+}
+
+.section1{
+    padding: 45px;
+    height: 75vh;
+    justify-content: center;
+    margin-top:3%;
+    opacity: 0;
+    transform: translateY(20px); 
+    animation: fadeUpAnimation 2s forwards;
+}
+
+@keyframes fadeUpAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.cont-section1{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 200px;
+    font-size: 4vh;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+
+.png-content{
+    width: 60%;
+    height: 60%;
+    margin-right: 2px;
+}
+
+.paragraf-section1{
+    font-family: sans-serif;
+    font-size: .7em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.p-left{
+    text-align:right;
+    
+}
+
+.p-right{
+    text-align:left;
+
+}
+
+.section2{
+    display:block;
+    text-align: center;
+    justify-content: center;
+    margin:20vh;
+
+}
+
+.visi,
+.misi{
+    font-size: 3vh;
+}
+
+.header_misi{
+    margin-top: 70px;
+}
+
+.subfooter{
+    background-color: #333333;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width:100%
+}
+
+.section3{
+    height:300px;
+    width:100%;
+    margin-top:40%;
+    justify-content: center;
+    text-align: center;
+}
+
+.empty-block{
+    background-color: #DDC192;
+    height: 3%
+}
+
+.section4{
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.cont-section4{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 200px;
+    font-size: 4vh;
+    
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.png-lb{
+    border-radius: 20px;
+    width: 80%;
+    padding: 10px;
+}
+
+.paragraf-section4{
+    font-size: 3vh;
+}
+
+.section5{
+    width: 100%;
+    height: 500px;
+    margin-top: 15%;
+}
+
+.img-section3{
+    width:50%
+}
+
+.cont-section5{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.carousel{
+    color:#000
+}
+
+.cont-carousel{
+    padding: 70px 0px;
+}
+
+@media (max-width: 600px){
+
+    .cont-section1 {
+        flex-direction: column; 
+    }
+
+    .paragraf-section1{
+        font-size: .5em;
+        text-align: center;
+    }
+
+    .png-content{
+        width: 100%;
+        height: 100%;
+    }
+
+    .section2{
+        margin:5vh;
+
+    }
+
+    .p-visi{
+        font-size:.5em;
+    }
+
+    .p-misi{
+        font-size:.5em;
+    }
+}
+
